@@ -13,6 +13,7 @@ def main(page: Page):
                 "/",
                 [
                     AppBar(title=Text("Flet app"), bgcolor=colors.SURFACE_VARIANT),
+                    
                     Text("Bem vindo ao novo app."),
                     ElevatedButton("Visit Store", on_click=lambda _: page.go("/store")),
                     
